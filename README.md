@@ -2,6 +2,8 @@
 
 Updates an OSGi MANIFEST.MF Import-Package and Export-Package headers based on ns declarations in clojure source files.
 
+For reference, see: http://web.archive.org/web/20130430195755/http://paudo.posterous.com/clojure-and-osgi-sitting-in-a-tree
+
 ## Usage
 
 Example: To add missing clojure packages to the Import-Package and Export-Package headers of an existing manifest (eg. as created by maven-bundle-plugin).
